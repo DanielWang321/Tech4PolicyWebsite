@@ -1,16 +1,443 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+        <!-- UPDATE THIS DESCRIPTION FOR SEARCH ENGINES -->
+        <meta name="description" content="Tech4Policy is a civic-tech competition for students in Allegheny County to develop technology and policy solutions for local community issues.">
+        <meta name="author" content="Daniel Wang & Ayush Srivastava">
 
-<body>
-  Hello world
-  <script src="script.js"></script>
-</body>
+        <title>Tech4Policy | Code for Change</title>
 
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+        <link href="css/templatemo-leadership-event.css" rel="stylesheet">
+    </head>
+    
+    <body>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- UPDATE YOUR LOGO AND BRAND  -->
+                <a href="index.html" class="navbar-brand mx-auto mx-lg-0">
+                    <i class="bi-lightbulb brand-logo"></i>
+                    <span class="brand-text">Tech4Policy</span>
+                </a>
+
+                <a class="nav-link custom-btn btn d-lg-none" href="#section_7">Register Now</a>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <!-- UPDATED NAVIGATION LINKS -->
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_1">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_2">Our Mission</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_3">Judges</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_4">Timeline</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_5">Prizes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_6">Sponsors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_7">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link custom-btn btn d-none d-lg-block" href="#section_7">Register Now</a>
+                        </li>
+                    </ul>
+                <div>
+            </div>
+        </nav>
+
+        <main>
+
+            <section class="hero" id="section_1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7 col-12 m-auto">
+                            <div class="hero-text">
+                                <!-- UPDATED HERO HEADLINE AND TAGLINE -->
+                                <h1 class="text-white mb-4"><u class="text-info">Turn Your Idea</u> Into Impact</h1>
+                                <p class="text-white">A civic-tech competition empowering Allegheny County students to solve local challenges with technology and policy.</p>
+                                <a href="#section_2" class="custom-link bi-arrow-down arrow-icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-wrap">
+                    <!-- VIDEO GUIDANCE:
+                        - Get a dynamic video showing students collaborating, coding, and presenting.
+                        - Mix in shots of local government buildings (like the PA Capitol or Allegheny County Courthouse).
+                        - The goal is to convey energy, innovation, and civic duty.
+                        - Place your video file in the 'videos' folder and name it 'tech4policy-hero.mp4' or update the src below.
+                    -->
+                    <video autoplay loop muted class="custom-video" poster="">
+                        <source src="videos/tech4policy-hero.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </section>
+
+            <section class="about section-padding" id="section_2">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-10 col-12">
+                            <h2 class="mb-4">Our <u class="text-info">Mission</u></h2>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <h3 class="mb-3">Bridging the Gap Between Code and Community.</h3>
+                            <p>"Tech4Policy" is a competition where student teams don't just build an app—they build a plan. Each team submits two connected components:</p>
+                            <ul>
+                                <li><strong>A Tech-Based Solution:</strong> A prototype app, website, or tool that solves a local problem.</li>
+                                <li><strong>A Policy Brief:</strong> A one-page implementation plan detailing how the local government could realistically adopt, fund, and support their solution.</li>
+                            </ul>
+                            
+                            <a class="custom-btn custom-border-btn btn custom-link mt-3 me-3" href="#section_3">Meet The Judges</a>
+                            <a class="custom-btn btn custom-link mt-3" href="#section_4">View The Timeline</a>
+                        </div>
+
+                        <div class="col-lg-6 col-12 mt-5 mt-lg-0">
+                            <h4>From Diagnosis to Action</h4>
+                            <p class="mt-3">Inspired by Representative Venkat's career as a physician, our competition challenges students to apply the same discipline: diagnose a community problem, develop a technological solution, and create a realistic action plan for its implementation. This moves beyond a simple "hackathon" to teach students how ideas become reality.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="speakers section-padding" id="section_3">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12 d-flex flex-column justify-content-center align-items-center">
+                            <div class="speakers-text-info">
+                                <h2 class="mb-4">Our <u class="text-info">Judges</u></h2>
+                                <p>Our judging panel consists of leaders in public policy, technology, and education who are dedicated to fostering student innovation.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <div class="speakers-thumb">
+                                <!-- IMAGE GUIDANCE: Get a professional headshot of Rep. Venkat -->
+                                <img src="images/judges/venkat.jpg" class="img-fluid speakers-image" alt="Headshot of Rep. Arvind Venkat">
+                                <small class="speakers-featured-text">Government Partner</small>
+                                <div class="speakers-info">
+                                    <h5 class="speakers-title mb-0">Rep. Arvind Venkat</h5>
+                                    <p class="speakers-text mb-0">PA State Representative, District 30</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 col-12">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="speakers-thumb speakers-thumb-small">
+                                        <!-- IMAGE GUIDANCE: Get a headshot of your tech expert judge -->
+                                        <img src="images/judges/tech-expert.jpg" class="img-fluid speakers-image" alt="Tech Expert Judge">
+                                        <div class="speakers-info">
+                                            <h5 class="speakers-title mb-0">[Tech Expert Name]</h5>
+                                            <p class="speakers-text mb-0">[Title, e.g., Senior Engineer at Google]</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="speakers-thumb speakers-thumb-small">
+                                        <!-- IMAGE GUIDANCE: Get a headshot of your education expert judge -->
+                                        <img src="images/judges/educator.jpg" class="img-fluid speakers-image" alt="Educator Judge">
+                                        <div class="speakers-info">
+                                            <h5 class="speakers-title mb-0">[Educator Name]</h5>
+                                            <p class="speakers-text mb-0">[Title, e.g., AP Government Teacher]</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- TO ADD MORE JUDGES, COPY THE BLOCK ABOVE AND PASTE IT HERE -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="schedule section-padding" id="section_4">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12">
+                            <h2 class="mb-5 text-center">Competition <u class="text-info">Timeline</u></h2>
+
+                            <nav>
+                                <div class="nav nav-tabs align-items-baseline" id="nav-tab" role="tablist">
+                                    <button class="nav-link active" id="nav-Tab1-tab" data-bs-toggle="tab" data-bs-target="#nav-Tab1" type="button" role="tab" aria-controls="nav-Tab1" aria-selected="true">
+                                        <h3><span>Phase 1: Registration</span><small>January 15 - Feb 15, 2025</small></h3>
+                                    </button>
+                                    <button class="nav-link" id="nav-Tab2-tab" data-bs-toggle="tab" data-bs-target="#nav-Tab2" type="button" role="tab" aria-controls="nav-Tab2" aria-selected="false">
+                                        <h3><span>Phase 2: Development</span><small>February 16 - March 31, 2025</small></h3>
+                                    </button>
+                                    <button class="nav-link" id="nav-Tab3-tab" data-bs-toggle="tab" data-bs-target="#nav-Tab3" type="button" role="tab" aria-controls="nav-Tab3" aria-selected="false">
+                                        <h3><span>Phase 3: Judging</span><small>April 1 - April 15, 2025</small></h3>
+                                    </button>
+                                    <button class="nav-link" id="nav-Tab4-tab" data-bs-toggle="tab" data-bs-target="#nav-Tab4" type="button" role="tab" aria-controls="nav-Tab4" aria-selected="false">
+                                        <h3><span>Phase 4: Finale</span><small>Late April, 2025</small></h3>
+                                    </button>
+                                </div>
+                            </nav>
+
+                            <div class="tab-content mt-5" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-Tab1" role="tabpanel" aria-labelledby="nav-Tab1-tab">
+                                    <div class="row border-bottom pb-5 mb-5">
+                                        <div class="col-lg-4 col-12">
+                                            <!-- IMAGE GUIDANCE: A graphic with "Register Now!" or a photo of students signing up on a laptop. -->
+                                            <img src="images/timeline/launch.jpg" class="schedule-image img-fluid" alt="">
+                                        </div>
+                                        <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                            <h4 class="mb-2">Registration Opens</h4>
+                                            <p>Assemble your team, identify a community problem you're passionate about, and register for the competition. We will provide resources and guides to help you get started.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="nav-Tab2" role="tabpanel" aria-labelledby="nav-Tab2-tab">
+                                    <div class="row border-bottom pb-5 mb-5">
+                                        <div class="col-lg-4 col-12">
+                                            <!-- IMAGE GUIDANCE: Students collaborating around a whiteboard or laptops. -->
+                                            <img src="images/timeline/development.jpg" class="schedule-image img-fluid" alt="">
+                                        </div>
+                                        <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                            <h4 class="mb-2">Solution Development Period</h4>
+                                            <p>This is where your idea comes to life. Teams will develop their tech prototype and draft the accompanying one-page policy brief. Optional virtual workshops with mentors will be available to help guide your progress.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="tab-pane fade" id="nav-Tab3" role="tabpanel" aria-labelledby="nav-Tab3-tab">
+                                    <div class="row border-bottom pb-5 mb-5">
+                                        <div class="col-lg-4 col-12">
+                                            <!-- IMAGE GUIDANCE: A more serious, focused image. Maybe a close-up of a judge's notes or a computer screen showing data. -->
+                                            <img src="images/timeline/judging.jpg" class="schedule-image img-fluid" alt="">
+                                        </div>
+                                        <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                            <h4 class="mb-2">Submissions & Judging</h4>
+                                            <p>All projects are due by March 31. Our preliminary judges will review all submissions based on our public rubric, narrowing the field to the top 5 finalists. Finalists will be announced on April 15th.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="nav-Tab4" role="tabpanel" aria-labelledby="nav-Tab4-tab">
+                                     <div class="row">
+                                        <div class="col-lg-4 col-12">
+                                            <!-- IMAGE GUIDANCE: An exciting shot of a student presenting or a group receiving an award. -->
+                                            <img src="images/timeline/finale.jpg" class="schedule-image img-fluid" alt="">
+                                        </div>
+                                        <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                            <h4 class="mb-2">The Finale & Winners Showcase</h4>
+                                            <p>The top 5 teams will present their projects live to our final judging panel, including Rep. Venkat. Winners will be announced, and all finalists will have the opportunity to network with community leaders.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="pricing section-padding" id="section_5">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-10 col-12 text-center mx-auto mb-5">
+                            <h2>Prizes & <u class="text-info">Recognition</u></h2>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12 mb-5 mb-lg-0">
+                            <div class="pricing-thumb bg-white shadow-lg">                                
+                                <div class="pricing-title-wrap d-flex align-items-center">
+                                    <h4 class="pricing-title text-white mb-0">1st Place</h4>
+                                    <h5 class="pricing-small-title text-white mb-0 ms-auto">$500</h5>
+                                </div>
+                                <div class="pricing-body">
+                                    <p><i class="bi-award me-2"></i> $500 Cash Prize</p>
+                                    <p><i class="bi-briefcase me-2"></i> Implementation Review with Rep. Venkat's Office</p>
+                                    <p><i class="bi-trophy me-2"></i> The Tech4Policy Grand Prize Trophy</p>
+                                    <div class="border-bottom pb-3 mb-4"></div>
+                                    <p>The winning team will earn the top prize and a direct pathway to see their idea considered for real-world impact.</p>
+                                    <a class="custom-btn btn mt-3" href="#section_4">View The Rules</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12 mb-5 mb-lg-0">
+                            <div class="pricing-thumb bg-white shadow-lg">                                
+                                <div class="pricing-title-wrap d-flex align-items-center">
+                                    <h4 class="pricing-title text-white mb-0">2nd Place</h4>
+                                    <h5 class="pricing-small-title text-white mb-0 ms-auto">$350</h5>
+                                </div>
+                                <div class="pricing-body">
+                                    <p><i class="bi-cash me-2"></i> $350 Cash Prize</p>
+                                    <p><i class="bi-lightbulb me-2"></i> Featured on Tech4Policy Website</p>
+                                    <p><i class="bi-patch-check me-2"></i> Certificate of Achievement</p>
+                                    <div class="border-bottom pb-3 mb-4"></div>
+                                    <p>The runner-up team will be recognized for their outstanding work and innovative thinking.</p>
+                                    <a class="custom-btn btn mt-3" href="#section_4">View The Rules</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="pricing-thumb bg-white shadow-lg">                                
+                                <div class="pricing-title-wrap d-flex align-items-center">
+                                    <h4 class="pricing-title text-white mb-0">3rd Place</h4>
+                                    <h5 class="pricing-small-title text-white mb-0 ms-auto">$150</h5>
+                                </div>
+                                <div class="pricing-body">
+                                    <p><i class="bi-people me-2"></i> Presentation at Finale</p>
+                                    <p><i class="bi-star me-2"></i> Official Finalist Recognition</p>
+                                    <p><i class="bi-chat-square me-2"></i> Networking Opportunity</p>
+                                    <div class="border-bottom pb-3 mb-4"></div>
+                                    <p>All top 5 teams will gain valuable experience presenting their ideas to community leaders.</p>
+                                    <a class="custom-btn btn mt-3" href="#section_4">View The Rules</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="venue section-padding" id="section_6">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-12">
+                            <h2 class="mb-5">Our <u class="text-info">Sponsors</u></h2>
+                        </div>
+                        
+                        <!-- IMAGE GUIDANCE: Replace these with the logos of your actual sponsors. Use PNGs with transparent backgrounds. -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                            <img src="images/sponsors/google.png" class="img-fluid" alt="Google for Nonprofits Logo">
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                            <img src="images/sponsors/schell-games.png" class="img-fluid" alt="Schell Games Logo">
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                            <!-- ADD MORE SPONSOR LOGOS HERE -->
+                        </div>
+
+                        <div class="col-12 text-center mt-4">
+                            <h4>Want to help foster the next generation of innovators?</h4>
+                            <p>We are actively seeking partners to support our mission. Contact us to learn about sponsorship opportunities.</p>
+                            <a href="#section_7" class="custom-btn btn">Become a Sponsor</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact section-padding" id="section_7">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-8 col-12 mx-auto">
+                            <!-- UPDATE YOUR FORM ACTION URL TO A REAL FORM PROCESSOR LIKE FORMSPREE OR NETLIFY FORMS -->
+                            <form class="custom-form contact-form bg-white shadow-lg" action="#" method="post" role="form">
+                                <h2>Register or Get In Touch</h2>
+                                <p class="mb-4">Use this form to register your team or ask us any questions.</p>
+
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-12">                                    
+                                        <input type="text" name="name" id="name" class="form-control" placeholder="Your Full Name" required="">
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-12">         
+                                        <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Your Email" required="">
+                                    </div>
+
+                                    <div class="col-12">                                    
+                                        <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject (e.g., Team Registration, Question)">
+                                    </div>
+
+                                    <div class="col-12">
+                                        <textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (Include your team members' names if registering)"></textarea>
+                                        <button type="submit" class="form-control">Submit</button>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-12 col-12 border-bottom pb-5 mb-5">
+                        <div class="d-flex">
+                            <a href="index.html" class="navbar-brand">
+                                <i class="bi-lightbulb brand-logo"></i>
+                                <span class="brand-text">Tech4Policy</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7 col-12">
+                        <ul class="footer-menu d-flex flex-wrap">
+                            <!-- UPDATE FOOTER LINKS -->
+                            <li class="footer-menu-item"><a href="#section_2" class="footer-menu-link click-scroll">Our Mission</a></li>
+                            <li class="footer-menu-item"><a href="#section_4" class="footer-menu-link click-scroll">Timeline & Rules</a></li>
+                            <li class="footer-menu-item"><a href="#section_6" class="footer-menu-link click-scroll">Sponsors</a></li>
+                            <li class="footer-menu-item"><a href="#section_7" class="footer-menu-link click-scroll">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-5 col-12 ms-lg-auto">
+                        <div class="copyright-text-wrap d-flex align-items-center">
+                            <!-- UPDATE COPYRIGHT INFORMATION -->
+                            <p class="copyright-text ms-lg-auto me-4 mb-0">Copyright © 2024 Tech4Policy. 
+                            <br>All Rights Reserved. 
+          					<br><br>Design: <a title="CSS Templates" rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+                            <a href="#section_1" class="bi-arrow-up arrow-icon custom-link"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
 </html>
